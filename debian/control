@@ -1,0 +1,20 @@
+Source: got
+Section: misc
+Priority: optional
+Maintainer: Tobias Heider <me@tobhe.de>
+Build-Depends: debhelper-compat (= 13), pkg-config, libbsd-dev, libmd-dev, libncurses-dev, libevent-dev, uuid-dev, zlib1g-dev, libssl-dev
+Standards-Version: 4.6.0
+Homepage: https://gameoftrees.org/index.html
+Rules-Requires-Root: no
+
+Package: got
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: A VCS which prioritizes ease of use and simplicity over flexibility
+ Game of Trees (Got) is a version control system which prioritizes
+ ease of use and simplicity over flexibility.
+ Got uses Git repositories to store versioned data. Git can be used
+ for any functionality which has not yet been implemented in
+ Got. It will always remain possible to work with both Got and Git
+ on the same repository.

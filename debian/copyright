@@ -1,0 +1,140 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://gameoftrees.org/
+Upstream-Name: got
+Upstream-Contact: gameoftrees@openbsd.org
+
+Files: *
+Copyright: 2001, Daniel Hartmeier
+           2004-2007, Darren Tucker <dtucker@zip>
+           2013, David Gwynne <dlg@openbsd.org>
+           2004-2005, Esben Norby <norby@openbsd.org>
+           2013, Florian Obser <florian@openbsd.org>
+           2002-2004, Henning Brauer <henning@openbsd.org>
+           2015, Ingo Schwarze <schwarze@openbsd.org>
+           1995, International Business Machines, Inc
+           1996, Internet Software Consortium
+           2022, Josh Rickmar <jrick@zettaport.com>
+           2001, Markus Friedl
+           2017, Martin Pieuchot
+           2017, Martin Pieuchot <mpi@openbsd.org>
+           2015, Mike Larkin <mlarkin@openbsd.org>
+           2020, Neels Hofmeyr <neels@hofmeyr.de>
+           2006-2017, Nicholas Marriott <nicholas.marriott@gmail.com>
+           2021, Omar Polo <op@omarpolo.com>
+           2021-2022, Omar Polo <op@openbsd.org>
+           2020, Ori Bernstein
+           2018-2020, Ori Bernstein <ori@openbsd.org>
+           2008-2017, Otto Moerbeek <otto@drijf.net>
+           2006-2008, Pierre-Yves Ritschard <pyr@openbsd.org>
+           2006-2016, Reyk Floeter <reyk@openbsd.org>
+           2004, Ryan McBride <mcbride@openbsd.org>
+           2018-2021, Stefan Sperling
+           2017-2022, Stefan Sperling <stsp@openbsd.org>
+           2004, Ted Unangst and Todd Miller
+           2001, Theo de Raadt
+           2015, Theo de Raadt <deraadt@openbsd.org>
+           2022, Thomas Adam <thomas@xteddy.org>
+           1998-2010, Todd C. Miller <Todd.Miller@courtesan.com>
+           1997, Todd C. Miller <millert@openbsd.org>
+           2020-2021, Tracey Emery <tracey@openbsd.org>
+           2016-2022, Tracey Emery <tracey@traceyemery.net>
+License: ISC
+
+Files: compat/fmt_scaled.c
+       compat/getopt.c
+       compat/merge.c
+       compat/siphash.*
+       compat/strsep.c
+       lib/buf.*
+       lib/diff3.c
+       lib/rcsutil.*
+Copyright: 2013, Andre Oppermann <andre@FreeBSD.org>
+           2001-2002, Caldera International Inc
+           2001-2003, Ian F. Darwin
+           2003, Jean-Francois Brousseau <jfb@openbsd.org>
+           2005-2006, Joris Vink <joris@openbsd.org>
+           2006, Niall O'Higgins <niallo@openbsd.org>
+           2006, Ray Lai <ray@openbsd.org>
+           1987-1994, The Regents of the University of California
+           2006, Xavier Santolaria <xsa@openbsd.org>
+License: BSD-3-clause
+
+Files: compat/bsd-poll.h
+       compat/tree.h
+       lib/bloom.*
+       lib/gitconfig.c
+       lib/got_lib_gitconfig.h
+Copyright: 2000-2003, Håkan Olsson
+           2012-2019, Jyri J. Virkki
+           2002, Niels Provos <provos@citi.umich.edu>
+           1998-2001, Niklas Hallqvist
+           1996, Theo de Raadt
+License: BSD-2-clause
+
+Files: lib/murmurhash2.*
+License: public-domain
+ MurmurHash2 was written by Austin Appleby, and is placed in the public
+ domain. The author hereby disclaims copyright to this source code.
+
+Files: debian/*
+Copyright: 2023, Tobias Heider <me@tobhe.de>
+License: ISC
+
+License: BSD-2-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. Neither the name of the University nor the names of its contributors
+    may be used to endorse or promote products derived from this software
+    without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+License: ISC
+ Permission to use, copy, modify, and distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
